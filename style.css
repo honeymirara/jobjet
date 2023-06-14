@@ -4,16 +4,18 @@
 
 }
 
-.main {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
+
 
 body {
     background-color: #FFFFFF;
     width: 1440;
     height: 1024;
+}
+
+.header_container{
+    max-width: 1440;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -23,7 +25,8 @@ body {
     height: 100px;
 }
 
-.registration {
+.header_link {
+    
     width: 119px;
     height: 23px;
     font-family: 'ubuntu';
@@ -31,7 +34,9 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    margin-top: 40px ;
+    margin-top: 70px;
+    margin-right: 40px;
+
 
 
 }
@@ -45,4 +50,3 @@ body {
 
 }
 
-.authorisation {}
