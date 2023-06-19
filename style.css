@@ -4,8 +4,6 @@
 
 }
 
-
-
 body {
     background-color: #FFFFFF;
     width: 1440;
@@ -38,26 +36,70 @@ body {
     margin-right: 40px;
 }
 
+.container-element {
+    max-width: 1440;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
 
 
 
- .blured-logo {
+
+/* .authorisation {
+    width: 439px;
+    height: 405px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+        linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+
+    border-radius: 9px;
+    border: 9px;
+    border: 3px solid #00000038;
+}
+
+.blured-logo {
     background-image: url(assets/Blur\ Center\ Logo.png);
     background-repeat: no-repeat;
     width: 640px;
     height: 640px;
-    margin-left: 360px;
-    align-items: center;
-}
+} */
+
+
 
 .authorisation {
     width: 439px;
     height: 405px;
-    background: linear-gradient(0deg, rgba(203, 203, 203, 0.22), rgba(0, 0, 0, 0.22)),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
         linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-    margin-top: 300px;
-    margin-left: 501px;
+    position: absolute;
+    z-index: 2;
     border-radius: 9px;
-    border: 3px;
     border: 3px solid #00000038;
-}; 
+    margin-top: 600px;
+}
+
+.blured-logo {
+    background-image: url(assets/Blur\ Center\ Logo.png);
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 640px;
+    margin-top: 600px;
+    position: absolute;
+    z-index: 1;
+}
+
+.auth {
+    width: 233px;
+    height: 40px;
+    top: 301px;
+    left: 616px;
+    opacity: 0.800000011920929px;
+    font-family: Ubuntu;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
