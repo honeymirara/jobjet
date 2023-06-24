@@ -159,3 +159,27 @@ body {
     color: rgba(18, 11, 101, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+
+.bottom-rectangle {
+
+    width: 1480px;
+    height: 139px;
+
+    background: rgba(37, 5, 107, 1);
+    margin-top: 900px;
+
+
+}
+
+.powered {
+    
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
