@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    background-image: url(assets/1JobJetLogo\ 1.png);
+    background-image: url(../assets/1JobJetLogo\ 1.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -57,7 +57,7 @@ body {
 }
 
 .blured-logo {
-    background-image: url(assets/Blur\ Center\ Logo.png);
+    background-image: url(../assets/Blur\ Center\ Logo.png);
     background-repeat: no-repeat;
     width: 640px;
     height: 640px;
